@@ -1,0 +1,32 @@
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时数据库与上传文件。data/fixtures、data/knowledge、data/hypergraph 可以提交。
+data/*.db
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/uploads/
+
+# 前端构建产物与依赖
+node_modules/
+.nuxt/
+.output/
+.nitro/
+dist/
+.cache/
+
+# 环境变量与日志。示例文件 .env.example 可以提交。
+.env
+.env.*
+!.env.example
+*.log
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

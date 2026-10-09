@@ -1,0 +1,37 @@
+[
+  {
+    "chunk_id": "cn_8507_60",
+    "jurisdiction": "CN",
+    "hs_code": "85076000",
+    "regulation_name": "中华人民共和国进出口税则（演示摘录）",
+    "publish_date": "2025-01-01",
+    "source_url": "https://www.customs.gov.cn/",
+    "issuing_body": "中华人民共和国海关总署",
+    "text": "演示摘录：锂离子蓄电池在本快照中的公开税则子目为 85076000。此条仅供竞赛演示，不是实时法规文本。",
+    "keywords": ["锂离子", "蓄电池", "锂电池"]
+  },
+  {
+    "chunk_id": "vn_8507_a",
+    "jurisdiction": "VN",
+    "hs_code": "85076000",
+    "regulation_name": "越南海关公开进口规则（演示摘录）",
+    "publish_date": "2024-06-01",
+    "source_url": "https://www.customs.gov.vn/",
+    "issuing_body": "越南海关总署",
+    "text": "演示摘录：锂离子蓄电池进口需另附成分说明。此条仅供竞赛演示，不是实时法规文本。",
+    "keywords": ["锂离子", "蓄电池", "锂电池"],
+    "conflicts_with": ["vn_8507_b"]
+  },
+  {
+    "chunk_id": "vn_8507_b",
+    "jurisdiction": "VN",
+    "hs_code": "85076000",
+    "regulation_name": "越南海关公开进口规则（演示摘录）",
+    "publish_date": "2024-06-01",
+    "source_url": "https://www.customs.gov.vn/",
+    "issuing_body": "越南海关总署",
+    "text": "演示摘录：同一子目未见额外进口限制。此条仅供竞赛演示，不是实时法规文本。",
+    "keywords": ["锂离子", "蓄电池", "锂电池"],
+    "conflicts_with": ["vn_8507_a"]
+  }
+]

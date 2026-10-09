@@ -1,0 +1,49 @@
+{
+  "documents": {
+    "declaration": {
+      "product_name": "锂离子蓄电池",
+      "party_seller": "深圳示例电源有限公司",
+      "qty": "1000",
+      "amount": "50000",
+      "hs_code": "85078000",
+      "material": "锂离子",
+      "mark": "VN-BAT-2026",
+      "lot_no": "LOT-A",
+      "pkgs": "10"
+    },
+    "invoice": {
+      "product_name": "锂离子电池",
+      "party_seller": "深圳示例电源有限",
+      "qty": "1000",
+      "amount": "50000",
+      "hs_code": "85078000",
+      "material": "锂离子"
+    },
+    "packing": {
+      "product_name": "锂离子蓄电池",
+      "qty": "500",
+      "mark": "VN-BAT-2026",
+      "lot_no": "LOT-A",
+      "pkgs": "10",
+      "per_pkg": "50"
+    },
+    "contract": {
+      "product_name": "锂电池组",
+      "party_seller": "深圳示例电源有限公司",
+      "amount": "48000",
+      "hs_code": "85078000"
+    }
+  },
+  "photos": {
+    "mark": {
+      "mark": "VN-BAT-2026-X",
+      "lot_no": "LOT-B",
+      "pkgs": "8"
+    },
+    "packing": {
+      "mark": "VN-BAT-2026-X",
+      "lot_no": "LOT-B",
+      "pkgs": "8"
+    }
+  }
+}

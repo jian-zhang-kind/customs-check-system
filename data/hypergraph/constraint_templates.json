@@ -1,0 +1,46 @@
+[
+  {
+    "constraint_type": "name_identity",
+    "rule_id": "R-NAME",
+    "slots": [
+      "declaration.product_name",
+      "invoice.product_name",
+      "packing.product_name",
+      "contract.product_name"
+    ]
+  },
+  {
+    "constraint_type": "party_identity",
+    "rule_id": "R-PARTY",
+    "slots": [
+      "declaration.party_seller",
+      "invoice.party_seller",
+      "contract.party_seller"
+    ]
+  },
+  {
+    "constraint_type": "qty_identity",
+    "rule_id": "R-QTY",
+    "slots": ["invoice.qty", "packing.pkgs", "packing.per_pkg", "declaration.qty"]
+  },
+  {
+    "constraint_type": "amount_identity",
+    "rule_id": "R-AMT",
+    "slots": ["invoice.amount", "declaration.amount", "contract.amount"]
+  },
+  {
+    "constraint_type": "mark_identity",
+    "rule_id": "R-MARK",
+    "slots": [
+      "declaration.mark",
+      "declaration.lot_no",
+      "declaration.pkgs",
+      "packing.mark",
+      "packing.lot_no",
+      "packing.pkgs",
+      "photo.mark",
+      "photo.lot_no",
+      "photo.pkgs"
+    ]
+  }
+]
